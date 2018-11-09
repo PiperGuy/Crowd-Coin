@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+     "test": "mocha",
+    "dev": "node server.js",
+    "build": "next build"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/PiperGuy/Crowd-Coin/issues"
   },
-  "homepage": "https://github.com/PiperGuy/Crowd-Coin#readme"
+  "homepage": "https://github.com/PiperGuy/Crowd-Coin#readme",
+  "dependencies": {
+    "fs-extra": "^7.0.1",
+    "ganache-cli": "^6.1.8",
+    "mocha": "^5.2.0",
+    "solc": "^0.4.25",
+    "truffle-hdwallet-provider": "0.0.6",
+    "web3": "^1.0.0-beta.26"
+  }
 }
