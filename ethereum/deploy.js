@@ -3,7 +3,7 @@ const Web3 = require('web3');
 const compiledFactory = require('./build/CampaignFactory.json');
 
 const provider = new HDWalletProvider(
-  'call glow acoustic vintage front ring trade assist shuffle mimic volume reject',
+  'kit announce fog never harsh garden decade ridge coral path nice infant',
   'https://rinkeby.infura.io/v3/8dd4d755adbb4f73b2f3ab0125ee4603'
 );
 const web3 = new Web3(provider);
