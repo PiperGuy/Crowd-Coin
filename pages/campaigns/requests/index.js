@@ -5,6 +5,8 @@ import Layout from '../../../components/Layout';
 import Campaign from '../../../ethereum/campaign';
 import RequestRow from '../../../components/RequestRow';
 
+
+
 class RequestIndex extends Component {
   static async getInitialProps(props) {
     const { address } = props.query;
@@ -42,6 +44,7 @@ class RequestIndex extends Component {
 
     return (
       <Layout>
+   
         <h3>Requests</h3>
         <Link route={`/campaigns/${this.props.address}/requests/new`}>
           <a>
